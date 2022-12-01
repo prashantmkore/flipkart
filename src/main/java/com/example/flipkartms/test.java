@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class test {
     @GetMapping("/test")
     public String getData(){
-        return "This page is just to check the new microservice";
+        return "This is testing of the microservice";
     }
 }
